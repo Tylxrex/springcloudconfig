@@ -6,3 +6,7 @@ eureka:
     serviceUrl:
       defaultZone:
         http://10.210.81.38:8761/eureka/,http://10.210.81.40:8761/eureka/
+
+service:
+  register-url:
+    http://10.210.81.38:8761/eureka/,http://10.210.81.40:8761/eureka/
