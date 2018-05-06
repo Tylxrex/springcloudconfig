@@ -1,0 +1,20 @@
+server:
+  port:
+    2101
+
+feign:
+  hystrix:
+    enabled:
+     true
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+            
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
