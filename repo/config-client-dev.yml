@@ -9,12 +9,6 @@ server:
 foo:
   foo version 3
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone:
-        http://10.210.81.38:8761/eureka/,http://10.210.81.40:8761/eureka/
-
 management:
   security:
     enabled:
