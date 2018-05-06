@@ -1,23 +1,30 @@
 service:
-  register-url: http://10.210.81.38:8761/eureka/,http://10.210.81.40:8761/eureka/
+  register-url:
+    http://10.210.81.38:8761/eureka/,http://10.210.81.40:8761/eureka/
 
 server:
-  port: 2007
+  port:
+    2007
 
-foo: foo version 3
+foo:
+  foo version 3
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://10.210.81.38:8761/eureka/,http://10.210.81.40:8761/eureka/
+      defaultZone:
+        http://10.210.81.38:8761/eureka/,http://10.210.81.40:8761/eureka/
       
 spring:
   cloud:
     config:
       discovery:
-        enabled: true
-      serviceId: config-server
+        enabled:
+          true
+      serviceId:
+        config-server
 
 management:
   security:
-    enabled: false
+    enabled:
+      false
