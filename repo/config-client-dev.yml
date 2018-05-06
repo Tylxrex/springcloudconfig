@@ -3,7 +3,7 @@ service:
     http://10.210.81.38:8761/eureka/,http://10.210.81.40:8761/eureka/
 
 foo:
-  foo version 2
+  foo version 3
 
 democonfigclient.message:
   hello spring io
