@@ -1,6 +1,6 @@
 server:
   port:
-    2010
+    2009
 
 feign:
   hystrix:
