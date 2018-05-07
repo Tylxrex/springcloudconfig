@@ -27,3 +27,6 @@ management:
   security:
     enabled:
       false
+
+foo:
+  foo version 25
