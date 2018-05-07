@@ -3,7 +3,7 @@ server:
     2007
 
 foo:
-  foo version 5
+  foo version 15
 
 management:
   security:
