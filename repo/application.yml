@@ -10,3 +10,18 @@ eureka:
 service:
   register-url:
     http://10.210.81.38:8761/,http://10.210.81.40:8761/
+
+spring:
+  rabbitmq:
+    host:
+      10.210.81.40
+    port:
+      5672
+    username:
+      guest
+    password:
+      guest
+    virtual-host:
+      /
+    publisher-confirms:
+      true
