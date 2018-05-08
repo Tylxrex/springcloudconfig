@@ -18,9 +18,9 @@ spring:
     port:
       5672
     username:
-      guest
+      Admin
     password:
-      guest
+      Admin
     virtual-host:
       /
     publisher-confirms:
