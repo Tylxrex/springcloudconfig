@@ -8,4 +8,4 @@ eureka:
     lease-renewal-interval-in-seconds: 5
   client:
     healthcheck:
-      enabled: true
+      enabled: false
