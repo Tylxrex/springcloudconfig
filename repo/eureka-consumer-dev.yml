@@ -27,6 +27,3 @@ management:
   security:
     enabled:
       false
-
-foo:
-  foo version 1125
