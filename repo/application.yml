@@ -25,3 +25,7 @@ spring:
       /
     publisher-confirms:
       true
+
+
+foo:
+  foo version tylxrex
